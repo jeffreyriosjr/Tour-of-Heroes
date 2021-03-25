@@ -23,7 +23,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.h1{
+  color: green;
+}
 .App-link {
   color: #61dafb;
 }

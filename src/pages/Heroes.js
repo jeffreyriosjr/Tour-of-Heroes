@@ -1,6 +1,8 @@
+
+
 const HeroesPage = () => {
     return (
-        <div>
+        <div id='heroes'>
             <h2>This is my HeroesPage!</h2>
         </div>
     );
