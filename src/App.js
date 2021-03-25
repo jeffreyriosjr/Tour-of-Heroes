@@ -1,4 +1,8 @@
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import DashboardPage from './pages/Dashboard';
+import HeroesPage from './pages/Heroes';
+import HeroPage from './pages/Hero';
+
 
 const App = () => {
   return (
@@ -24,14 +28,15 @@ const App = () => {
       </ul>
     </nav>
 
-    <Switch>
-      <Route />
-      <Route />
-    </Switch>
+    { <Switch>
+      <Route path='/' exact component={DashboardPage} />
+      <Route path='/heroes' component={HeroesPage}/>
+      <Route path='/hero' component={HeroPage} />
+    </Switch> }
     
     </div>
     </Router>
   );
-}
+};
 
 export default App;
