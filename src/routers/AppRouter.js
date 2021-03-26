@@ -7,12 +7,13 @@ const AppRouter = () => {
     return (
         <div>
         <Navbar />
-
+        <div className='container'>
         <Switch>
       <Route path='/' exact component={DashboardPage} />
-      <Route path='/heroes' component={HeroesPage}/>
-      <Route path='/hero' component={HeroPage} />
+      <Route path='/heroes' exact component={HeroesPage}/>
+      <Route path='/heroes/:heroId' component={HeroPage} />
     </Switch> 
+      </div>
     </div>
     );
 };

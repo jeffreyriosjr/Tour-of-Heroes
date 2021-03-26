@@ -6,7 +6,7 @@ export const heroData = [
     alter_ego: 'Bruce Wayne',
     first_appearance: 'Detective Comics #27',
     characters: ['Bruce Wayne'],
-    featured: false,
+    featured: true,
     image_url:
       'https://www.trendsinternational.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/5/15191---justice-league---batman.jpg',
   },
@@ -17,7 +17,7 @@ export const heroData = [
     alter_ego: 'Kal-El',
     first_appearance: 'Action Comics #1',
     characters: ['Kal-El'],
-    featured: false,
+    featured: true,
     image_url:
       'https://www.trendsinternational.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/5/15740---justice-league---superman.jpg',
   },
@@ -48,7 +48,7 @@ export const heroData = [
       'Sinestro',
       'Simon Baz',
     ],
-    featured: false,
+    featured: true,
     image_url:
       'https://coldfeet-space.nyc3.digitaloceanspaces.com/wsb/2011/06/green-lantern-thumb-whysoblu.jpg',
   },
@@ -169,7 +169,7 @@ export const heroData = [
     alter_ego: 'Bruce Banner',
     first_appearance: 'The Incredible Hulk #1',
     characters: ['Bruce Banner'],
-    featured: false,
+    featured: true,
     image_url:
       'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3ce3fda5-c041-4624-aa5a-d92265c04c8d/d4zpb81-b12279e3-247e-4bf1-a539-29c1a3f2aeda.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2NlM2ZkYTUtYzA0MS00NjI0LWFhNWEtZDkyMjY1YzA0YzhkXC9kNHpwYjgxLWIxMjI3OWUzLTI0N2UtNGJmMS1hNTM5LTI5YzFhM2YyYWVkYS5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.FUjJucdNtxQQ9KECOsnuFAtVYVtK4wBPa_JIjia6rF4',
   },
