@@ -16,7 +16,7 @@ const DashboardPage = () => {
     return (
         <div id='dashboard-Page'>
         <div className='row text-center mt-3'>
-            <div className='col'>
+            <div className='col bg-dark'>
                 <h2>Welcome to the Tour of Heroes!</h2>
                 <h4 className='text-secondary'>View Our Featured Heroes</h4>
             </div>
