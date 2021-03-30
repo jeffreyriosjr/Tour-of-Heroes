@@ -5,6 +5,7 @@ import { heroData } from '../data/heroes';
 import { FaStar, FaRegStar } from 'react-icons/fa';
 import { GiBatMask } from 'react-icons/gi'
 import '../App.css';
+
 const Dashboard = () => {
     const [heroes, setHeroes] = useState(heroData);
     const [alert, setAlert] = useState(false);
@@ -13,6 +14,7 @@ const Dashboard = () => {
         console.log(featured);
         setHeroes(featured);
     }, [alert]);
+    
     const updateFeatured = (heroId) => {
         let foundHero = heroData.find(hero => hero.id === +heroId);
         foundHero.featured = !foundHero.featured;
